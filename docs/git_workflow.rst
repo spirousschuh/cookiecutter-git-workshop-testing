@@ -1,6 +1,6 @@
-======
-Recipe
-======
+============
+Git Workflow
+============
 
 
 Idea
@@ -12,16 +12,6 @@ find instructions how to follow that workflow using PyCharm. There is different
 ways to achieve the same goal without PyCharm. Once you are familiar with the
 basic concepts you can use any tool you like.
 
-To setup your system to be able to follow these instructions, please take a 
-look in the `README <../README.md>`_.
-
-Ingredience
-===========
-
- * PyCharm (installed)
- * Git (installed)
- * repository (to be changed)
- * feature idea
 
 Instructions
 ============
