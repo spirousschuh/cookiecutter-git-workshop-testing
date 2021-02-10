@@ -1,0 +1,8 @@
+{
+    "author_name": "Josephine Doe",
+    "author_email": "your@address.eu",
+
+    "package_name": "git_workshop_testing",
+    "package_description": "A lightweight python package to practise some unit testing",
+    "package_url": "https://git.tu-berlin.de/you/your_repo_name"
+}
