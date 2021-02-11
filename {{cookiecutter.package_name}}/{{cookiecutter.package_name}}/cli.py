@@ -16,10 +16,9 @@ def thumbnail(input_path, output_path):
         with Image.open(input_path) as im:
             im.thumbnail(size)
             im.save(output_path, "JPEG")
+            click.echo('Sucessfully saved image at %s' % output_path)
     except OSError:
         click.echo("cannot create thumbnail for %s" % input_path)
-
-    click.echo('Sucessfully saved image at %s' % output_path)
 
 
 @cli_group.command()
@@ -31,7 +30,26 @@ def rotate(input_path, output_path, angle):
     try:
         with Image.open(input_path) as im:
             im.rotate(angle).save(output_path, "JPEG")
+            click.echo('Sucessfully saved image at %s' % output_path)
     except OSError:
         click.echo("cannot rotate the image in %s" % input_path)
 
-    click.echo('Sucessfully saved image at %s' % output_path)
+
+@cli_group.command()
+@click.option('--input-path', help='input path of your image', required=True)
+@click.option('--output-path', help='path for the rotated image', required=True)
+def invert(input_path, output_path):
+
+    try:
+        # get the image
+        with Image.open(input_path) as image:
+
+            # do the image processing
+            inverted_image = invert_image(image)
+
+            # write output
+            inverted_image.save(output_path, "JPEG")
+            click.echo('Sucessfully saved image at %s' % output_path)
+    except OSError:
+        click.echo("cannot rotate the image in %s" % input_path)
+

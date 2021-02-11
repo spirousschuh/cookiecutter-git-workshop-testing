@@ -41,7 +41,6 @@ above
    tasks/task_1
    tasks/task_2
    tasks/task_3
-   tasks/task_4
 
 
 Indices and tables
