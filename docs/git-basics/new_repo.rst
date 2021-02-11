@@ -1,3 +1,6 @@
+.. _new-repository:
+
+
 =====================
 Creating a Repository
 =====================
@@ -13,7 +16,7 @@ ________________________
 
 First of all you want to create a repository on GitLab/GitHub. Therefore, go to
 the URL of your GitLab Server, i.e.
-https://git.tu-berlin.de.   Then you click on
+https://git.tu-berlin.de/kiwi-git-workshops.   Then you click on
 **New Project** and select **Create blank project**. Afterwards you may choose a
 name for your repository
 
@@ -104,11 +107,18 @@ Right know they do not know about each other.
 
 4. Follow the steps you find in the section **Push an existing folder**
    (second red box). You need to replace `cd existing_folder` with the
-   project-name_ you choes in step 6. In case you forgot the package name you
+   project-name_ you chose in step 6. In case you forgot the package name you
    can check it with `ls -l` which displays the content of the current
    directory.
    (if you get an error like `error: src refspec main does not match any` you
    need to replace main with master)
 
-5. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
+5. Install your new package in editable mode
+
+   .. code-block::
+
+      pip install -e .
+
+
+6. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
    When you see a basic README.md file you succeeded.
