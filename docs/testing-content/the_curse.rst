@@ -10,7 +10,7 @@ code
 
 * my project is late
 * do not touch my code it works
-* my code is untestable
+* my code is un-testable
 * I just work on the project myself
 
 No doubt testing your code is hard now, but working on non-tested code is
@@ -29,6 +29,6 @@ How tested code makes your life easier:
 * puts yourself into your users' shoes
 * fosters good coding practices
 * focus on your current task and forget about the rest of the code
-* Be lazy! let the computer do the check
+* Be lazy! Let the computer do the checking.
 
 

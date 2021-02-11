@@ -15,7 +15,6 @@ def test_invert_image_one_pixel():
     # then
     expected_pixel = (255, 255, 255)
     assert inverted_image.getpixel((0, 0)) == expected_pixel
-
     # TODO: Please, check the size of the output image.
 
 
