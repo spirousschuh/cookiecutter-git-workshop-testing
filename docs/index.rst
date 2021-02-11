@@ -7,8 +7,8 @@ Here are the basic git concepts that we covered in the last workshop
    :maxdepth: 2
    :caption: Basic Git Concepts
 
-   new_repo
-   git_workflow
+   git-basics/new_repo
+   git-basics/git_workflow
 
 Today we will learn how to write unit tests.
 
@@ -16,8 +16,8 @@ Today we will learn how to write unit tests.
    :maxdepth: 2
    :caption: Aspects of Testing
 
-   unit_tests
-   the_curse
+   testing-content/unit_tests
+   testing-content/the_curse
 
 Moreover we will deal with the most important concepts to use unit test for the
 sake of improve your code quality.
@@ -26,9 +26,9 @@ sake of improve your code quality.
    :maxdepth: 2
    :caption: Testing Concepts
 
-   continuous_integration
-   refactoring
-   tdd
+   testing-content/continuous_integration
+   testing-content/refactoring
+   testing-content/tdd
 
 Therefore we have a collection of tasks to practise the methodologies introduced
 above

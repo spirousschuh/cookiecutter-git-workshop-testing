@@ -17,7 +17,7 @@ https://git.tu-berlin.de.   Then you click on
 **New Project** and select **Create blank project**. Afterwards you may choose a
 name for your repository
 
-.. image:: images/new_project.png
+.. image:: ../images/new_project.png
 
 and click **Create project**.
 Now we created an empty project on the remote server.
@@ -62,9 +62,10 @@ Therefore we use a template via the following steps:
    the default value. You do not need to reveal
    your real data, as it is a toy project anyway. But you could choose answers
    like these:
+
    .. _project-name:
 
-   .. image:: images/questions.png
+   .. image:: ../images/questions.png
 
 
    Pay attention at the third question. The answer to that question will be
@@ -96,7 +97,7 @@ Right know they do not know about each other.
    that you just created in the section `Create Project on GitLab`_.
    As it is an empty project the landing page should look like this:
 
-   .. image:: images/project_setup.png
+   .. image:: ../images/project_setup.png
 
 3. Follow the step that are displayed under **Git global setup** (first red box)
    one by one, i.e. you copy each line to your terminal and press *Enter*.

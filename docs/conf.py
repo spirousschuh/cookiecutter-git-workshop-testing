@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'cookiecutter-git-workshop-testing'
+project = 'Git Workshop Testing'
 copyright = '2021, Christoph Lange'
 author = 'Christoph Lange'
 
@@ -58,3 +58,5 @@ html_theme_options = {
     'page_width': '1200px',
     'sidebar_width': '300px',
 }
+
+html_domain_indices = True

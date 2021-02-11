@@ -33,7 +33,7 @@ branch. Therefore we click on the button in the bottom right corner next to the
 patlock. Then we see a context menue like this that displays all the local 
 branches.
 
-.. image:: images/checkout_branch.png
+.. image:: ../images/checkout_branch.png
 
 Click on the main/master branch and choose "Checkout" in the second context 
 menue to switch to the main/master branch.
@@ -42,7 +42,7 @@ the upstream main/master. Therefore we pull the newest state from upstream. In
 the upper left corner we can find the menue bar, click on "Git" and choose pull
 in the pull down menue.
 
-.. image:: images/git_pull.png
+.. image:: ../images/git_pull.png
 
 Create Branch
 _____________
@@ -51,7 +51,7 @@ Now we create a branch to implement our feature. In order to do so move your
 cursor to the buttom right corner and click on your current branch name, 
 which should be main/master, next to the patlock.
 
-.. image:: images/create_new_branch.png
+.. image:: ../images/create_new_branch.png
 
 Within the context menue click on "New Branch" and enter a branch name that
 relates to your feature idea.
@@ -64,13 +64,13 @@ your goal. For instance you want to add a new file "Tasks.md". Then you make a
 right click onto the folder that should contain your new file.
 
 
-.. image:: images/new_file.png
+.. image:: ../images/new_file.png
 
 In the context menue select "new" and "File" and enter the filename in the 
 consecutive prompt. Then PyCharm wants to know if Git should look after your
 new file.
 
-.. image:: images/add_to_git.png
+.. image:: ../images/add_to_git.png
 
 Normally that is a good idea and you shall choose "Add".
 
@@ -80,7 +80,7 @@ ___________
 Now you want to push the branch with your changes to the upstream server. This
 way you create an identical copy of your local branch on the server. To do so
 
-.. image:: images/git_push.png
+.. image:: ../images/git_push.png
 
 go to the upper left corner where you can find the menue bar and click on `Git`
 and choose `push` in the pull down menue.
@@ -93,12 +93,12 @@ a merge request on the server. Therefore open your browser and go to
 `https://git.tu-berlin.de/your_name/your_project/`. On the left hand side you
 click on `Merge Requests`. Then you get to a page that looks like this:
 
-.. image:: images/merge_request.png
+.. image:: ../images/merge_request.png
 
 Here click on `Create merge request` to create a request to merge `your_branch`
 (here: "basic_description") into main/master. Then you can add a description
 
-.. image:: images/merge_request2.png
+.. image:: ../images/merge_request2.png
 
 and assign a reviewer. Finally submit you merge request.
 
@@ -118,7 +118,7 @@ ____________
 When all discussions are done and you are sure that your changes improve the
 main/master branch, it is time to merge your branch by
 
-.. image:: images/final_merge.png
+.. image:: ../images/final_merge.png
 
 clicking on **Merge**.
 

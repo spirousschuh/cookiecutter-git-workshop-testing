@@ -1,5 +1,7 @@
-# cookiecutter-git-workshop-basics
-This template creates simple repository for learning the basic git usage.
+# cookiecutter-git-workshop-testing
+
+This template creates a simple repository for learning some basic concepts 
+around unit testing.
 
 
 ## Setup
@@ -11,14 +13,10 @@ Please make sure that you install the following things:
  * [Create an SSH key](https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html)
 
 
-## Workshop Goal
+## ReadtheDocs
 
-The goal of this workshop is to familiarize the user with a basic git workflow
-that is described in the [Recipe.md](Recipe.rst) file.
-
-Therefore we will practise it in an interactive way on a sample package. 
-To do this the user may complete the task in [Task.md file](Tasks.md).
-
+Please take a look at our documenation for more details:
+https://cookiecutter-git-workshop-testing.readthedocs.io/en/latest/index.html
 
 ## Links
 
